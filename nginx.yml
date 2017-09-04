@@ -1,0 +1,5 @@
+  nginx:
+    image: nginx
+    volumes:
+      - /Storage/Web Development/Server/Docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - /Storage/Web Development:/var/www/html
