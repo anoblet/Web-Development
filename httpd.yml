@@ -1,0 +1,9 @@
+version: '3'
+services:
+  httpd:
+    image: httpd
+    ports:
+      - "80:80"
+    volumes:
+      - /Storage/Web Development:/usr/local/apache2/htdocs
+      - /Storage/Web Development/Server/Docker/httpd.conf:/usr/local/apache2/conf/httpd.conf
