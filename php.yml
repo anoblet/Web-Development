@@ -1,7 +1,7 @@
-version: '3'
+version: '2'
 services:
   php:
     # image: php:fpm
     build: Server/Docker/php
     volumes:
-      - /Storage/Web Development:/usr/local/apache2/htdocs
+      - ./:/usr/local/apache2/htdocs
