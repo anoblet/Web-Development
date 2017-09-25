@@ -8,4 +8,4 @@ services:
       MYSQL_PASSWORD: "password"
       MYSQL_DATABASE: Application
     volumes:
-     - /Storage/Web Development/MySQL:/var/lib/mysql
+     - ./MySQL:/var/lib/mysql
